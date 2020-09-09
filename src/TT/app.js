@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
-
+import Jumbo1 from './jumbo1_homepage/jumbo1'
 import Navbar from './navbar/navbar'
-// import './App.css';
+import OverView from './OverView/overview'
+import WWeDo from './WhatWedo/whatWedo'
+import './app.css';
+
+// import './Assests/';
 // import Card from "./Components/Cards"
 
 class App extends Component {
@@ -10,23 +14,16 @@ class App extends Component {
     return (
         <div>
            <Navbar/>
+           <div className="">
+           <Jumbo1/>
+           <OverView/>
+           </div>
+           <WWeDo/>
         </div>
     );
-    
+
   };
 }
 
 export default App;
 
-{/* <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-          <div>
-            <Card/>
-          </div>
-        </header>
-        <p className="App-intro text">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div> */}
