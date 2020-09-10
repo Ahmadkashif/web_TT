@@ -1,0 +1,13 @@
+.navCustDesign{
+    padding-left: 1rem !important;
+    font-size: 1.4rem !important;
+    color: #1966b9 !important;
+}
+.navCustDesign_spacingX{
+    padding-right: 1.5rem !important;
+}
+a:active{
+    border-bottom-style:solid;
+    border-color:#1966b9;
+    z-index: 1;
+}

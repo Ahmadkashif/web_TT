@@ -1,5 +1,6 @@
 body{
     /* background-color: rgb(210, 231, 250);  */
+    /* 1966b9 */
 }
 navbarSpacer{
     min-width: 200px;
@@ -16,7 +17,7 @@ div div#mainsplash{
     background-size: auto;
     background-position: center;
     width: auto;
-    height: 700px;
+    height: 100vh;
    background-color: rgba(127, 255, 212, 0);
    text-align: center;
    color:blanchedalmond!important;
@@ -25,7 +26,7 @@ div div#mainsplash{
     margin-top: 10rem;
 }
 .mainPage_mainHeading{
-    padding-top: 5rem;
+    padding-top: 20rem !important;
 }
 #WWeDoJumbo{
     background-image: url('../images/WWeDoSplash.png')!important;
@@ -40,4 +41,5 @@ div div#mainsplash{
 }
 .OverView_heading{
     text-align: center;
+    height:100vh;
 }

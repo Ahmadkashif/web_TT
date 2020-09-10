@@ -2,6 +2,14 @@ import React ,{Component} from 'react'
 
 class WWedo extends Component{
 
+    state= {
+        cardNames : ["Computer Games",
+                "Mobile Apps",
+                "Web Development",
+                "UI/UX Design",
+                "Digital Marketing"
+                ]
+    };
     render(){
         return(
             <div>

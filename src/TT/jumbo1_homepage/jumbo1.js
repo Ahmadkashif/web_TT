@@ -7,8 +7,8 @@ class Jumbo1 extends Component{
              <div className="jumbotron jumbotron-fluid ui fluid image" background-image ="url({TT_splash})" id = "mainsplash">
                  {/* <img className="ui fluid image" src={TT_splash}></img> */}
                 <div className="container mainPage_mainHeading">
-                    <h1 className="display-1">Content Line 1</h1>
-                    <p className="lead">This is a tagline to be added.</p>
+                    <h1 className="display-1">The next tech giant</h1>
+                    {/* <p className="lead">This is a tagline to be added.</p> */}
                 </div>
             </div> 
 
