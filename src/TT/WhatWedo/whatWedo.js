@@ -1,5 +1,6 @@
 import React ,{Component} from 'react'
-
+import Card from './Cards/Cards'
+import GamingIcon from '../../images/icons/gaming.png'
 class WWedo extends Component{
 
     state= {
@@ -19,12 +20,7 @@ class WWedo extends Component{
 
                     <div className = "row">
                         <div className = "col">
-                        <div className="card" >
-                            <img src="..." className="card-img-top" alt="..."/>
-                            <div className="card-body">
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
+                       <Card icon = {GamingIcon} label = {this.state.cardNames[0]}/>
                         </div>
                         <div className = "col"></div>
                         <div className = "col"></div>
