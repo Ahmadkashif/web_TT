@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Route, Router,Switch} from 'react-router-dom'
 import Navbar from './navbar/navbar'
 import Footer from './footer/footer'
 import HomePage from './HomePage/HomePage'
@@ -13,10 +14,13 @@ class App extends Component {
   render() {
 
     return (
-
         <div>
            <Navbar/>
-             <ContactUsPage/>
+           <Switch>
+           <Route path = "/" exact component= {HomePage}/>
+           <Route path = "/aboutus" exact component= {AboutPage}/>
+           <Route path = "/contactus" exact component= {ContactUsPage}/>
+           </Switch>
            <Footer/>
         </div>
 

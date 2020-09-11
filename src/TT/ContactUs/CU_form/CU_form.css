@@ -1,0 +1,21 @@
+.CU_form{
+  
+    padding: 20px;
+    color: antiquewhite;
+}
+.contactMale{
+    background-image: url(../../../images/contact-male.png);
+    background-repeat: no-repeat;
+    background-position: right;
+     width: auto;
+     height: 80vh;
+    }
+     /*
+    padding: -30px !important;
+    margin :-20px !important; */
+
+.CU_form_length{
+    height: 80vh;
+    width: auto;
+    background-color: #1966b9;
+}
