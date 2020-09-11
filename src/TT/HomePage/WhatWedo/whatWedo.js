@@ -1,11 +1,11 @@
 import React ,{Component} from 'react'
 import Card from './Cards/Cards'
 import './WWEdo.css'
-import GamingIcon from '../../images/icons/gaming.png'
-import AppDevIcon from '../../images/icons/appdev.png'
-import WebDevIcon from '../../images/icons/webdev.png'
-import UIUXIcon from '../../images/icons/uiux.png'
-import DigiIcon from '../../images/icons/digitalmarketing.png'
+import GamingIcon from '../../../images/icons/gaming.png'
+import AppDevIcon from '../../../images/icons/appdev.png'
+import WebDevIcon from '../../../images/icons/webdev.png'
+import UIUXIcon from '../../../images/icons/uiux.png'
+import DigiIcon from '../../../images/icons/digitalmarketing.png'
 
 class WWedo extends Component{
 

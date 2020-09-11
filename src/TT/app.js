@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-
-import Jumbo1 from './HomePage/jumbo1_homepage/jumbo1'
 import Navbar from './navbar/navbar'
-import OverView from './HomePage/OverView/overview'
-import WWeDo from './HomePage/WhatWedo/whatWedo'
 import Footer from './footer/footer'
+import HomePage from './HomePage/HomePage'
 import './app.css';
 
 // import './Assests/';
@@ -17,11 +14,7 @@ class App extends Component {
 
         <div>
            <Navbar/>
-           <div className="">
-           <Jumbo1/>
-           <OverView/>
-           </div>
-           <WWeDo/>
+          <HomePage/>
            <Footer/>
         </div>
 

@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 // import
-import TT_splash from '../../images/TT_splash-1.jpg'
 class Jumbo1 extends Component{
     render(){
         return(

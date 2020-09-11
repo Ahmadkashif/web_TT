@@ -1,6 +1,6 @@
 
 div.jumbotron.jumbotron-fluid.vertSpacing#WWeDoJumbo{
-    background-image: url('../../images/WWeDoSplash.png')!important;
+    background-image: url('../../../images/WWeDoSplash.png')!important;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
