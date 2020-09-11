@@ -4,7 +4,7 @@ class Footer extends Component{
     render(){
         return(
         <div>
-            <div className="jumbotron jumbotron-fluid footerCust w-100">
+            <div className="jumbotron jumbotron-fluid footerCust w-100 mb-0">
                 <div className="container">
                     <div className = "row">
                         <div className = "col">
