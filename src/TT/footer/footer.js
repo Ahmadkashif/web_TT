@@ -8,7 +8,7 @@ class Footer extends Component{
                 <div className="container">
                     <div className = "row">
                     <div className = "col">
-                    <i className="facebook f icon"></i>
+                    <i className="facebook f icon iconfb w-10 h-10"></i>
                     </div>
                     <div className = "col">
                         <div className = "footer_right">
@@ -20,7 +20,7 @@ class Footer extends Component{
                     </div>
                 </div>
             </div>
-            <i class="facebook f icon"></i>
+          
         </div>)
     };
 }

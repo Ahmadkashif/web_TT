@@ -4,3 +4,8 @@
 div.jumbotron.jumbotron-fluid.footerCust{
     min-height: 20px !important;
 }
+.iconfb{
+    size: 1rem !important;
+    font-size : 1rem;
+    color:navy;
+}
