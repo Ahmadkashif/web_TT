@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './navbar/navbar'
 import Footer from './footer/footer'
 import HomePage from './HomePage/HomePage'
+import AboutPage from './AboutPage/Aboutpage'
 import './app.css';
 
 // import './Assests/';
@@ -14,7 +15,7 @@ class App extends Component {
 
         <div>
            <Navbar/>
-          <HomePage/>
+          <AboutPage/>
            <Footer/>
         </div>
 

@@ -1,0 +1,19 @@
+.cardImg{
+    size : 2rem !important;
+    max-width: 13rem;
+}
+.cardABT{
+    max-width: 13rem;
+    font-size: 2rem;
+    
+}
+.subtitle{
+    font-size: 1rem;
+    margin-top:-20px;
+}
+.ABT_vrtSpc{
+    margin-top:60px !important;
+}
+.cotainerCustomers{
+    height: 30vh;
+}
