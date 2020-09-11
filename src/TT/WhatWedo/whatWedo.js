@@ -21,7 +21,6 @@ class WWedo extends Component{
     render(){
         return(
             <div>
-                
                 <div className="jumbotron jumbotron-fluid vertSpacing col-xl-12 col-lg-12 col-md-12 col-sm-12" id = "WWeDoJumbo">
                     <h1 className = "display-4">What We Do</h1>
                     <div className = "container">

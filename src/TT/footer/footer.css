@@ -1,8 +1,6 @@
 .footer_right{
-
+    color: rgb(143, 141, 138);
 }
 div.jumbotron.jumbotron-fluid.footerCust{
-    margin-bottom: 0px !important;
-    padding: 0px !important;
-    height: 3vh !important;
+    min-height: 20px !important;
 }

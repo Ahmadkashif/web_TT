@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter} from 'react-router-dom'
+
 import Jumbo1 from './jumbo1_homepage/jumbo1'
 import Navbar from './navbar/navbar'
 import OverView from './OverView/overview'
@@ -14,7 +14,7 @@ class App extends Component {
   render() {
 
     return (
-      <BrowserRouter>
+
         <div>
            <Navbar/>
            <div className="">
@@ -24,7 +24,7 @@ class App extends Component {
            <WWeDo/>
            <Footer/>
         </div>
-        </BrowserRouter>
+
     );
 
   };
