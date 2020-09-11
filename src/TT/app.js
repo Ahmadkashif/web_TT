@@ -3,6 +3,7 @@ import Navbar from './navbar/navbar'
 import Footer from './footer/footer'
 import HomePage from './HomePage/HomePage'
 import AboutPage from './AboutPage/Aboutpage'
+import ContactUsPage from './ContactUs/ContactUs'
 import './app.css';
 
 // import './Assests/';
@@ -15,7 +16,7 @@ class App extends Component {
 
         <div>
            <Navbar/>
-          <AboutPage/>
+             <ContactUsPage/>
            <Footer/>
         </div>
 
