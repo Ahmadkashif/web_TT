@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import Jumbo1 from './jumbo1_homepage/jumbo1'
+import Jumbo1 from './HomePage/jumbo1_homepage/jumbo1'
 import Navbar from './navbar/navbar'
-import OverView from './OverView/overview'
-import WWeDo from './WhatWedo/whatWedo'
+import OverView from './HomePage/OverView/overview'
+import WWeDo from './HomePage/WhatWedo/whatWedo'
 import Footer from './footer/footer'
 import './app.css';
 
