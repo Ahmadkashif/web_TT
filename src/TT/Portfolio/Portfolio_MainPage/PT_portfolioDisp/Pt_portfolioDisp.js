@@ -7,11 +7,22 @@ class Pt_portfolioDisp extends Component{
             <div>
 
                 <div className= "container">
+                    <h1 className= "display-3">
+                        Our Work
+                    </h1>
                     <p>
-                      
+                        aisncd yabhsdb ybybh  habsydfahdbtc rcvgavsd a sdnaskd uansudjoasd jnuasdasndj n habsdasidn uabsjdasudnas juasdasnfb o a sh
                     </p>
-                    <div className= "row">
-                        <div className= "col">
+                    <div className= "row d-flex justify-content-center">
+                        <div className= "col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
+                            <PortfolioCard/>
+                        </div>
+                        
+                        <div className= "col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
+                            <PortfolioCard/>
+                        </div>
+                        
+                        <div className= "col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
                             <PortfolioCard/>
                         </div>
                     </div>
