@@ -6,6 +6,7 @@ import HomePage from './HomePage/HomePage'
 import PortfolioPage from './Portfolio/Portfolio'
 import AboutPage from './AboutPage/Aboutpage'
 import ContactUsPage from './ContactUs/ContactUs'
+import WWeDoPage from './WhatWEDo/WhatWEDo'
 import './app.css';
 
 // import './Assests/';
@@ -13,7 +14,6 @@ import './app.css';
 
 class App extends Component {
   render() {
-
     return (
         <div>
            <Navbar/>
@@ -22,6 +22,7 @@ class App extends Component {
            <Route path = "/aboutus" exact component= {AboutPage}/>
            <Route path = "/contactus" exact component= {ContactUsPage}/>
            <Route path = "/portfolio" exact component= {PortfolioPage}/>
+           <Route path = "/wwedo" exact component = {WWeDoPage}/>
            </Switch>
            <Footer/>
         </div>
