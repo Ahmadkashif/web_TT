@@ -5,9 +5,13 @@
 }
 .navCustDesign_spacingX{
     padding-right: 1.5rem !important;
+    padding-left: 1.1rem !important;
 }
 .Nav_link_active_cust{
     border-bottom-style:solid;
     border-color:#1966b9;
     z-index: 1;
+}
+.nav-item{
+    text-align: right !important;
 }
