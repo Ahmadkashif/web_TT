@@ -10,12 +10,15 @@
      width: auto;
      height: 80vh;
     }
-     /*
-    padding: -30px !important;
-    margin :-20px !important; */
-
 .CU_form_length{
     height: 80vh;
     width: auto;
-    background-color: #1966b9;
+    background-color: #ffffff;
+}
+.inputCUForm{
+    border-style: solid;
+    border-top : 0px;
+    border-right: 0px;
+    border-left: 0px;
+    
 }
