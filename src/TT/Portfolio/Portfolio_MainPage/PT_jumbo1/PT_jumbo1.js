@@ -1,9 +1,9 @@
 import React , {Component } from 'react'
-
+import './PT_jumbo1.css' 
 class PT_jumbo1  extends Component{
     render(){
         return(
-            <div>
+            <div className = "PTJM1_main">
 
             </div>
         )
