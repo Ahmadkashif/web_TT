@@ -3,6 +3,7 @@ import {Route, Router,Switch} from 'react-router-dom'
 import Navbar from './navbar/navbar'
 import Footer from './footer/footer'
 import HomePage from './HomePage/HomePage'
+import PortfolioPage from './Portfolio/Portfolio'
 import AboutPage from './AboutPage/Aboutpage'
 import ContactUsPage from './ContactUs/ContactUs'
 import './app.css';
@@ -20,6 +21,7 @@ class App extends Component {
            <Route path = "/" exact component= {HomePage}/>
            <Route path = "/aboutus" exact component= {AboutPage}/>
            <Route path = "/contactus" exact component= {ContactUsPage}/>
+           <Route path = "/portfolio" exact component= {PortfolioPage}/>
            </Switch>
            <Footer/>
         </div>
