@@ -14,7 +14,7 @@ class NavbarLinks extends Component{
                             <NavLink className="nav-link navCustDesign_spacingX" to="/" exact activeClassName = "Nav_link_active_cust">Home <span className="sr-only">(current)</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link navCustDesign_spacingX" to="#" activeClassName = "Nav_link_active_cust">Portfolio</NavLink>
+                            <NavLink className="nav-link navCustDesign_spacingX" to="/portfolio" activeClassName = "Nav_link_active_cust">Portfolio</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link navCustDesign_spacingX" to="/aboutus" exact activeClassName = "Nav_link_active_cust">About us</NavLink>
