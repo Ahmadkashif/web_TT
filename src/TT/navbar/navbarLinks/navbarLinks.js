@@ -1,4 +1,5 @@
 import React,{Component} from "react"
+import {NavLink} from 'react-router-dom'
 import '../navbarLinks/navbarLinks.css'
 class NavbarLinks extends Component{
     render(){
@@ -10,16 +11,16 @@ class NavbarLinks extends Component{
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                         <li className="nav-item active">
-                            <a className="nav-link navCustDesign_spacingX" href="/">Home <span className="sr-only">(current)</span></a>
+                            <NavLink className="nav-link navCustDesign_spacingX" to="/" exact activeClassName = "Nav_link_active_cust">Home <span className="sr-only">(current)</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link navCustDesign_spacingX" href="#">Portfolio</a>
+                            <NavLink className="nav-link navCustDesign_spacingX" to="#" activeClassName = "Nav_link_active_cust">Portfolio</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link navCustDesign_spacingX" href="/aboutus">About Us</a>
+                            <NavLink className="nav-link navCustDesign_spacingX" to="/aboutus" exact activeClassName = "Nav_link_active_cust">About us</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link navCustDesign_spacingX" href="/contactus">Contact</a>
+                        <NavLink className="nav-link navCustDesign_spacingX" to="/contactus" exact activeClassName = "Nav_link_active_cust">Contact</NavLink>
                         </li>
                         </ul>
                     </div>

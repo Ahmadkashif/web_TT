@@ -6,7 +6,7 @@
 .navCustDesign_spacingX{
     padding-right: 1.5rem !important;
 }
-a:active{
+.Nav_link_active_cust{
     border-bottom-style:solid;
     border-color:#1966b9;
     z-index: 1;
