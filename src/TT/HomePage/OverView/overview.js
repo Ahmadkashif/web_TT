@@ -8,7 +8,9 @@ class OverView extends Component{
                     <h1 className = "display-4">Overview</h1>
                     <div className = "container">
                     <p className = "OverviewDescrp">
-                        Twelve Tiers is a .... We provide an end-to-end game & app development service where our designers, developers and marketing professionals will make your project a success.
+                        Twelve Tiers Technologies is where developers, designers, enthusiasts all come together for one single purpose, <strong>Excellence</strong>. 
+                        With a team of hard working and highly skilled IT professionals, we are reshaping the future.
+                        <br/> We provide an end-to-end game & app development service where our designers, developers and marketing professionals will make your project a success.
 
                     </p>
                     </div>
