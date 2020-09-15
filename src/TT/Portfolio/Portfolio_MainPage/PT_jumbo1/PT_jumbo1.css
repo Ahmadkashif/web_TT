@@ -1,10 +1,11 @@
 .PTJM1_main{
-    background-image: url(../../../../images/PortfolioSplash1.jpg) !important;
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-image: url(../../../../images/portfolio.jpg) !important;
+    background-repeat: space;
+    background-size: cover;
     background-position: center;
     width: auto;
-    height: 50vh;
+    height: 70vh;
     background-color: #ffffff00;
     color:antiquewhite;
+    
 }

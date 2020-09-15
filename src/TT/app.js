@@ -22,7 +22,7 @@ class App extends Component {
            <Route path = "/aboutus" exact component= {AboutPage}/>
            <Route path = "/contactus" exact component= {ContactUsPage}/>
            <Route path = "/portfolio" exact component= {PortfolioPage}/>
-           <Route path = "/wwedo" exact component = {WWeDoPage}/>
+           <Route path = "/whatwedo" exact component = {WWeDoPage}/>
            </Switch>
            <Footer/>
         </div>

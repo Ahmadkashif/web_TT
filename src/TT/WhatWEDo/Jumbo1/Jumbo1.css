@@ -1,0 +1,14 @@
+.WWEDOJM1_main{
+    background-image: url(../../../images/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 70vh;
+   
+    color:antiquewhite;
+}
+.blackOverlay{
+    background: #000000a2!important;
+    height: inherit;
+}
