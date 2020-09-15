@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 class Jumbo1 extends Component{
     render(){
         return(
-             <div className="jumbotron jumbotron-fluid ui fluid image" background-image ="url({TT_splash})" id = "mainsplash">
+             <div className="jumbotron jumbotron-fluid ui fluid image"  id = "mainsplash">
                  {/* <img className="ui fluid image" src={TT_splash}></img> */}
                 <div className="container mainPage_mainHeading">
                     <h1 className="display-3">When you need coding, it better be Phenomenal. </h1>

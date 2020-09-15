@@ -26,7 +26,8 @@ div div#mainsplash{
     margin-top: 10rem;
 }
 .mainPage_mainHeading{
-    padding-top: 20rem !important;
+    height: 80vh;
+    padding-top: 200px;
 }
 
 .OverView_heading{
