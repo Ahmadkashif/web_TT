@@ -39,7 +39,6 @@ class OurWork extends Component{
                         </a>
                     </div>
                 </div>
-
             </div>
         )
     }
