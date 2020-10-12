@@ -36,8 +36,8 @@ class Corevals extends Component{
                     </h1>
                     <div className = "row ABT_vrtSpc">
                         <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div className = "C1 COREvalsContent">
-                                <div className = " d-flex flex-column justify-content-center">
+                            <div className = "C1 COREvalsContent d-flex flex-column">
+                                <div className = " d-flex flex-column justify-content-center my-auto">
                                     <h1 className = "COREvalsContent_header ">
                                     <strong>Choose Joy</strong>
                                     </h1>
@@ -49,20 +49,23 @@ class Corevals extends Component{
                             </div>
                         </div>
                         <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div className = "C2 COREvalsContent">
-                            <div className = " d-flex flex-column justify-content-center">
-                                    <h1 className = "COREvalsContent_header ">
+
+                            <div className = "C2 COREvalsContent d-flex flex-column">
+                            <div className = " d-flex flex-column justify-content-center my-auto">
+                               
+                                <h1 className = "COREvalsContent_header ">
                                     <strong>High Integrity</strong>
                                     </h1>
-                                    <p className = "COREvalsContent_para container">
+                                <p className = "COREvalsContent_para container">
                                     We maintain our high beliefs and professionalism throughout the process, and place great emphasis on integrity and respect
-                                    </p>
+                                </p>
+                               
                                 </div>
                             </div>
                         </div>
                         <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div className = "C3 COREvalsContent">
-                            <div className = " d-flex flex-column justify-content-center">
+                            <div className = "C3 COREvalsContent d-flex flex-column">
+                            <div className = " d-flex flex-column justify-content-center my-auto">
                                     <h1 className = "COREvalsContent_header ">
                                     <strong> Be Tenacious</strong>
                                     </h1>
@@ -75,8 +78,8 @@ class Corevals extends Component{
                     </div>
                     <div className = "row mt-1 mb-5 ABT_vrtSpc">
                     <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div className = "C4 COREvalsContent">
-                            <div className = " d-flex flex-column justify-content-center">
+                            <div className = "C4 COREvalsContent d-flex flex-column">
+                            <div className = " d-flex flex-column justify-content-center my-auto">
                                     <h1 className = "COREvalsContent_header ">
                                     <strong>Diversity Rules</strong>
                                     </h1>
@@ -88,8 +91,8 @@ class Corevals extends Component{
                             </div>
                         </div>
                         <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div className = "C5 COREvalsContent">
-                            <div className = " d-flex flex-column justify-content-center">
+                            <div className = "C5 COREvalsContent d-flex flex-column">
+                            <div className = " d-flex flex-column justify-content-center my-auto">
                                     <h1 className = "COREvalsContent_header ">
                                     <strong> Dream Big</strong>
                                     </h1>
@@ -101,8 +104,8 @@ class Corevals extends Component{
                             </div>
                         </div>
                         <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div className = "C6 COREvalsContent">
-                            <div className = " d-flex flex-column justify-content-center">
+                            <div className = "C6 COREvalsContent d-flex flex-column">
+                            <div className = " d-flex flex-column justify-content-center my-auto">
                                     <h1 className = "COREvalsContent_header ">
                                     <strong>Give Back</strong>
                                     </h1>

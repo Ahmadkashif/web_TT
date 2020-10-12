@@ -73,12 +73,12 @@
     
 }
 .COREvalsContent:hover .COREvalsContent_para{
-    margin-bottom: 14vh !important;
+    margin-bottom: 2vh !important;
     transition: .2s;
 }
 .COREvalsContent_header{
     text-align: center;
-    margin-top: 12vh !important;
+    /* margin-top: 12vh !important; */
 }
 .COREvalsContent_para{
     text-align: center;
