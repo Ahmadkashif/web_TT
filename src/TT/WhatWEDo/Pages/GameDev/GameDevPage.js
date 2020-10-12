@@ -31,16 +31,19 @@ class GameDev extends Component{
                             <div className = "row container">
                                 <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
                                     <div className = "pageCard">
-                                        <div className = "row">
-                                            <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
+                                        <div className = "row d-flex flex-column">
+                                            <div className = "d-flex flex-column justify-content-center my-auto">
+                                            <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-12">
                                                 <img className = "pageCardImg" src = {G1}/>
                                             </div>
-                                            <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                            <h1 className = "   topRowHeading d-flex justify-content-center">
-                                                <strong>iOS GAME DEVELOPMENT</strong>
-                                            </h1>
-                                            <p className = "pageCardPara">The surest way of developing jaw dropping apps in the most secure OS</p>
-                                        </div>
+                                            <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-12 ">
+                                                <h1 className = "text-center topRowHeading d-flex justify-content-center">
+                                                    <strong>iOS GAME DEVELOPMENT</strong>
+                                                </h1>
+                                                <p className = "pageCardPara">The surest way of developing jaw dropping apps in the most secure OS</p>
+                                            </div>
+                                            </div>
+                                        
                                         </div>
                                     </div>
                                 </div>
