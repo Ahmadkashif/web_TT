@@ -28,31 +28,31 @@ class UIUXDev extends Component{
                 <div className = "col-xl-8 col-lg-8 col-md-12 col-sm-12 ContentColumn">
                         <div className = "row container">
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                                <div className = "pageCard">
+                                <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {UiDesigner}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                             <strong>UI/UX designers</strong>
                                         </h1>
-                                        <p className = "pageCardPara">We have some of the best UI/UX designers and their work is crucial because the initial user interaction is through their work</p>
+                                        <p className = "text-center pageCardPara">We have some of the best UI/UX designers and their work is crucial because the initial user interaction is through their work</p>
                                     </div>
                                     </div>
                                 </div>
                             </div>
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                            <div className = "pageCard">
+                            <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {TextureArt}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = "text-center   topRowHeading d-flex justify-content-center">
                                             <strong>Texture artists</strong>
                                         </h1>
-                                        <p className = "pageCardPara">Our texture artists are some of the best in the industry. They add textures to characters, game items and environments</p>
+                                        <p className = "text-center pageCardPara">Our texture artists are some of the best in the industry. They add textures to characters, game items and environments</p>
                                     </div>
                                     </div>
                                 </div>
@@ -60,31 +60,31 @@ class UIUXDev extends Component{
                         </div>
                         <div className = "row  container">
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                            <div className = "pageCard">
+                            <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {EffectsArt}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                             <strong>Effects artists</strong>
                                         </h1>
-                                        <p className = "pageCardPara">Our effects artists work effortlessly on a combination of 2D and 3D tools, lights and particle tools and bringing any virtual area to life</p>
+                                        <p className = "text-center pageCardPara">Our effects artists work effortlessly on a combination of 2D and 3D tools, lights and particle tools and bringing any virtual area to life</p>
                                     </div>
                                     </div>
                                 </div>
                             </div>
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                                 <div className = "pageCard">
+                                 <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {ThreeD}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                             <strong>3D Modellers</strong>
                                         </h1>
-                                        <p className = "pageCardPara">Our 3D modellers create the characters, environments and objects including life forms, scenery, vegetation, vehicles etc</p>
+                                        <p className = "text-center pageCardPara">Our 3D modellers create the characters, environments and objects including life forms, scenery, vegetation, vehicles etc</p>
                                     </div>
                                     </div>
                                 </div>
@@ -92,31 +92,31 @@ class UIUXDev extends Component{
                         </div>
                         <div className = "row  container">
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                            <div className = "pageCard">
+                            <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {Rigger}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = "  text-center topRowHeading d-flex justify-content-center">
                                             <strong>Riggers</strong>
                                         </h1>
-                                        <p className = "pageCardPara">Our riggers make a skeleton for a 3D/2D model for it to be animated. Without a rig a character can’t be deformed and moved around</p>
+                                        <p className = "text-center pageCardPara">Our riggers make a skeleton for a 3D/2D model for it to be animated. Without a rig a character can’t be deformed and moved around</p>
                                     </div>
                                     </div>
                                 </div>
                             </div>
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                                 <div className = "pageCard">
+                                 <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {Animators}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                             <strong>Animators</strong>
                                         </h1>
-                                        <p className = "pageCardPara">Our animators are well versed with all kinds of 2D and 3D animations</p>
+                                        <p className = "text-center pageCardPara">Our animators are well versed with all kinds of 2D and 3D animations</p>
                                     </div>
                                     </div>
                                 </div>

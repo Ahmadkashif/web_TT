@@ -29,31 +29,31 @@ class WebDev extends Component{
                 <div className = "col-xl-8 col-lg-8 col-md-12 col-sm-12 ContentColumn">
                         <div className = "row container">
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                                <div className = "pageCard">
+                                <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {G1}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                             <strong>Ecommerce Web Solutions</strong>
                                         </h1>
-                                        <p className = "pageCardPara">Our optimized digital solutions, with easy interface, will provide you an enriched approach to your customers.</p>
+                                        <p className = " text-center pageCardPara">Our optimized digital solutions, with easy interface, will provide you an enriched approach to your customers.</p>
                                     </div>
                                     </div>
                                 </div>
                             </div>
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                            <div className = "pageCard">
+                            <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {Cms}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                             <strong>CMS Website</strong>
                                         </h1>
-                                        <p className = "pageCardPara">Our customized CMS website will allow you to edit, add or modify your website, professionally. Clients can manage and regulate the content without the help of a webmaster.</p>
+                                        <p className = "text-center pageCardPara">Our customized CMS website will allow you to edit, add or modify your website, professionally. Clients can manage and regulate the content without the help of a webmaster.</p>
                                     </div>
                                     </div>
                                 </div>
@@ -61,31 +61,31 @@ class WebDev extends Component{
                         </div>
                         <div className = "row  container">
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                            <div className = "pageCard">
+                            <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {B2B}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                             <strong>B2B & B2C Portals</strong>
                                         </h1>
-                                        <p className = "pageCardPara">Our specialized B2B and B2C portals, expand your reach and let you caster to your customers around the globe</p>
+                                        <p className = "text-center pageCardPara">Our specialized B2B and B2C portals, expand your reach and let you caster to your customers around the globe</p>
                                     </div>
                                     </div>
                                 </div>
                             </div>
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                                 <div className = "pageCard">
+                                 <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {SPA}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                             <strong>Single Page Application</strong>
                                         </h1>
-                                        <p className = "pageCardPara">We develop best single page apps with quick HTML page update, which provides the users hassle free and desktop like experience</p>
+                                        <p className = "text-center pageCardPara">We develop best single page apps with quick HTML page update, which provides the users hassle free and desktop like experience</p>
                                     </div>
                                     </div>
                                 </div>
@@ -93,31 +93,31 @@ class WebDev extends Component{
                         </div>
                         <div className = "row  container">
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                            <div className = "pageCard">
+                            <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {CustDev}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = "text-center   topRowHeading d-flex justify-content-center">
                                             <strong>Custom Development</strong>
                                         </h1>
-                                        <p className = "pageCardPara">Our exclusive website designs and services will enhance your brand and make it stand apart</p>
+                                        <p className = "text-center pageCardPara">Our exclusive website designs and services will enhance your brand and make it stand apart</p>
                                     </div>
                                     </div>
                                 </div>
                             </div>
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                                 <div className = "pageCard">
+                                 <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {WebsiteDev}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                             <strong>Website Development</strong>
                                         </h1>
-                                        <p className = "pageCardPara">We provide vigorous style design and fascinating look to your websites, providing you a superior verge.</p>
+                                        <p className = "text-center pageCardPara">We provide vigorous style design and fascinating look to your websites, providing you a superior verge.</p>
                                     </div>
                                     </div>
                                 </div>
