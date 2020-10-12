@@ -4,7 +4,7 @@
     
 }
 .WWeDoBodyHeading{
-    padding-top: 80px;
+   
     font-size: 2.5rem;
 }
 .GameDev{
@@ -76,7 +76,7 @@
 .WWEDOvrtAlign{
     vertical-align: middle;
     align-items: center;
-    text-align: end;
+    text-align: center;
 }
 .WWeDoTextAlign{
     text-align: center;

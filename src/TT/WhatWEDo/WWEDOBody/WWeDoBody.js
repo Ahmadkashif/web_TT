@@ -18,14 +18,17 @@ class Body extends Component{
                 <div className = "services WWeDoVrtSpace">
                     <h1 className = "container display-4 d-flex justify-content-center WWeDoTextAlign animate__animated animate__pulse animate__delay-2s">Services We Provide</h1>
                     <div className = "row">
+
+
                         <div className = "col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
-                         <div className = "GameDev card-img-top ">
-                            <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow">
+                         <div className = "GameDev card-img-top">
+                            <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
                             <div className = "WWEDOvrtAlign d-flex flex-column">
-                                    <h3 className = "d-flex flex-column justify-content-center display-4 WWeDoBodyHeading  mt-5 animate__pulse">
+                                <div className = "d-flex flex-column justify-content-center">
+                                <h3 className = " display-4 WWeDoBodyHeading animate__pulse">
                                         <strong>Game Development</strong>
                                     </h3>
-                                    <div className = "d-flex  flex-column justify-content-center WWEDOvrtAlign">
+                                    <div className = "d-flex flex-column justify-content-center WWEDOvrtAlign">
                                     <div className = "d-flex justify-content-center container">
                                         <p className = "d-flex justify-content-center w-100 WWEDOPara"> Building games from scratch to finish. We craft futuristic games
                                          that can transform your game idea into reality.
@@ -35,6 +38,7 @@ class Body extends Component{
                                     <NavLink className="WWEDOCustBtn" role = "button" to="/gameDev" exact  >Learn more</NavLink>
                                     </div>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
