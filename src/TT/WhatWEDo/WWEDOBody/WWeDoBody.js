@@ -57,7 +57,7 @@ class Body extends Component{
                                         </p> 
                                     </div>
                                     <div className = "d-flex  justify-content-center">
-                                    <NavLink className="WWEDOCustBtn" role = "button" to="/gameDev" exact  >Learn more</NavLink>
+                                    <NavLink className="WWEDOCustBtn" role = "button" to="/appDev" exact  >Learn more</NavLink>
                                     </div>
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@ class Body extends Component{
                                         </p> 
                                     </div>
                                     <div className = "d-flex  justify-content-center">
-                                    <NavLink className="WWEDOCustBtn" role = "button" to="/gameDev" exact  >Learn more</NavLink>
+                                    <NavLink className="WWEDOCustBtn" role = "button" to="/webDev" exact  >Learn more</NavLink>
                                     </div>
                                     </div>
                                 </div>
@@ -103,7 +103,7 @@ class Body extends Component{
                                         </p> 
                                     </div>
                                     <div className = "d-flex  justify-content-center">
-                                    <NavLink className="WWEDOCustBtn" role = "button" to="/gameDev" exact  >Learn more</NavLink>
+                                    <NavLink className="WWEDOCustBtn" role = "button" to="/uiuxDev" exact  >Learn more</NavLink>
                                     </div>
                                     </div>
                                 </div>
@@ -125,7 +125,7 @@ class Body extends Component{
                                         </p> 
                                     </div>
                                     <div className = "d-flex  justify-content-center">
-                                    <NavLink className="WWEDOCustBtn" role = "button" to="/gameDev" exact  >Learn more</NavLink>
+                                    <NavLink className="WWEDOCustBtn" role = "button" to="/digiDev" exact  >Learn more</NavLink>
                                     </div>
                                     </div>
                                 </div>

@@ -34,31 +34,31 @@ class AppDev extends Component{
                 <div className = "col-xl-8 col-lg-8 col-md-12 col-sm-12 ContentColumn">
                         <div className = "row container">
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                                <div className = "pageCard">
+                                <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {G1}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                             <strong>iOS App</strong>
                                         </h1>
-                                        <p className = "pageCardPara">We specialize in iOS application development which attracts maximum number of iOS users.</p>
+                                        <p className = " text-center pageCardPara">We specialize in iOS application development which attracts maximum number of iOS users.</p>
                                     </div>
                                     </div>
                                 </div>
                             </div>
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                            <div className = "pageCard">
+                            <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {AndApp}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                             <strong>Android Apps</strong>
                                         </h1>
-                                        <p className = "pageCardPara">Our Android applications provide you a competitive advantage in respective industry</p>
+                                        <p className = "text-center pageCardPara">Our Android applications provide you a competitive advantage in respective industry</p>
                                     </div>
                                     </div>
                                 </div>
@@ -66,31 +66,31 @@ class AppDev extends Component{
                         </div>
                         <div className = "row  container">
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                            <div className = "pageCard">
+                            <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {CrossPlatform}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                             <strong>Cross Platform</strong>
                                         </h1>
-                                        <p className = "pageCardPara">Our application attracts and retains maximum number of users around the world</p>
+                                        <p className = "text-center pageCardPara">Our application attracts and retains maximum number of users around the world</p>
                                     </div>
                                     </div>
                                 </div>
                             </div>
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                                 <div className = "pageCard">
+                                 <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {HybridApps}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = "text-center   topRowHeading d-flex justify-content-center">
                                             <strong>Hybrid Application</strong>
                                         </h1>
-                                        <p className = "pageCardPara">Hybrid app development solutions are robust, high-performing, and to handle any business and IT needs.</p>
+                                        <p className = "text-center pageCardPara">Hybrid app development solutions are robust, high-performing, and to handle any business and IT needs.</p>
                                     </div>
                                     </div>
                                 </div>
@@ -98,31 +98,31 @@ class AppDev extends Component{
                         </div>
                         <div className = "row  container">
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                            <div className = "pageCard">
+                            <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {Ar}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = "text-center   topRowHeading d-flex justify-content-center">
                                             <strong>Augmented Reality</strong>
                                         </h1>
-                                        <p className = "pageCardPara">Our AR application developers lay pieces of real world in virtual world.</p>
+                                        <p className = "text-center pageCardPara">Our AR application developers lay pieces of real world in virtual world.</p>
                                     </div>
                                     </div>
                                 </div>
                             </div>
                             <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
-                                 <div className = "pageCard">
+                                 <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                     <div className = "row">
                                         <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
                                             <img className = "pageCardImg" src = {ReactNative}/>
                                         </div>
                                         <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
-                                        <h1 className = "   topRowHeading d-flex justify-content-center">
+                                        <h1 className = "text-center   topRowHeading d-flex justify-content-center">
                                             <strong>React Native Apps</strong>
                                         </h1>
-                                        <p className = "pageCardPara">We develop React Native Mobile Apps with smooth and strong performance.</p>
+                                        <p className = "text-center pageCardPara">We develop React Native Mobile Apps with smooth and strong performance.</p>
                                     </div>
                                     </div>
                                 </div>
