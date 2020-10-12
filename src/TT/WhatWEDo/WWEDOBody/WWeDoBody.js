@@ -45,21 +45,22 @@ class Body extends Component{
                         </div>
                         <div className = "col-xl-6 col-lg-6 col-md-6 col-sm-12">
                          <div className = "AppDev">
-                            <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow">
-                                <div className = "WWEDOvrtAlign d-flex flex-column">
-                                <h3 className = " d-flex flex-column justify-content-center display-4 WWeDoBodyHeading  mt-5">
+                         <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
+                            <div className = "WWEDOvrtAlign d-flex flex-column">
+                                <div className = "d-flex flex-column justify-content-center">
+                                <h3 className = " display-4 WWeDoBodyHeading animate__pulse">
                                         <strong>App Development</strong>
                                     </h3>
-                                    <div className = "d-flex  flex-column justify-content-center WWEDOvrtAlign">
+                                    <div className = "d-flex flex-column justify-content-center WWEDOvrtAlign">
                                     <div className = "d-flex justify-content-center container">
-                                        <p className = "d-flex justify-content-center w-100 WWEDOPara"> We deliver next-generation 
-                                        iPhone & Android applications to meet the most demanding customer requirements
+                                        <p className = "d-flex justify-content-center w-100 WWEDOPara"> We deliver next-generation iPhone & Android applications to meet the most demanding customer requirements
                                         </p> 
                                     </div>
                                     <div className = "d-flex  justify-content-center">
-                                    <NavLink className="WWEDOCustBtn" role = "button" to="/appDev" exact  >Learn more</NavLink>
+                                    <NavLink className="WWEDOCustBtn" role = "button" to="/gameDev" exact  >Learn more</NavLink>
                                     </div>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -68,60 +69,66 @@ class Body extends Component{
                     <div className = "row">
                         <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12">
                          <div className = "webDev card-img-top">
-                            <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow">
-                            <div className = "WWEDOvrtAlign  d-flex flex-column">
-                            <h3 className = " d-flex flex-column justify-content-center display-4 WWeDoBodyHeading  mt-5">
+                         <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
+                            <div className = "WWEDOvrtAlign d-flex flex-column">
+                                <div className = "d-flex flex-column justify-content-center">
+                                <h3 className = " display-4 WWeDoBodyHeading animate__pulse">
                                         <strong>Web Development</strong>
                                     </h3>
-                                    <div className = "d-flex  flex-column justify-content-center WWEDOvrtAlign">
+                                    <div className = "d-flex flex-column justify-content-center WWEDOvrtAlign">
                                     <div className = "d-flex justify-content-center container">
-                                        <p className = "d-flex justify-content-center w-100 WWEDOPara"> Our web services assure you to lift your business growth. We brand your digital occurrence user-friendly and consistent.
+                                        <p className = "d-flex justify-content-center w-100 WWEDOPara">Our web services assure you to lift your business growth. We brand your digital occurrence user-friendly and consistent.
                                         </p> 
                                     </div>
                                     <div className = "d-flex  justify-content-center">
-                                    <NavLink className="WWEDOCustBtn" role = "button" to="/webDev" exact  >Learn more</NavLink>
+                                    <NavLink className="WWEDOCustBtn" role = "button" to="/gameDev" exact  >Learn more</NavLink>
                                     </div>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
                         </div>
                         <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12">
                          <div className = "uiDev ">
-                            <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow">
-                            <div className = "WWEDOvrtAlign  d-flex flex-column">
-                            <h3 className = " d-flex flex-column justify-content-center display-4 WWeDoBodyHeading  mt-5">
+                         <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
+                            <div className = "WWEDOvrtAlign d-flex flex-column">
+                                <div className = "d-flex flex-column justify-content-center">
+                                <h3 className = " display-4 WWeDoBodyHeading animate__pulse">
                                         <strong>UI/UX Development</strong>
                                     </h3>
-                                    <div className = "d-flex  flex-column justify-content-center WWEDOvrtAlign">
+                                    <div className = "d-flex flex-column justify-content-center WWEDOvrtAlign">
                                     <div className = "d-flex justify-content-center container">
-                                        <p className = "d-flex justify-content-center w-100 WWEDOPara">Build the product you need.  Our UI/UX developers profusely interact with various interfaces to better develop apt UI/UX design.
+                                        <p className = "d-flex justify-content-center w-100 WWEDOPara"> Build the product you need.  Our UI/UX developers profusely interact with various interfaces to better develop apt UI/UX design.
                                         </p> 
                                     </div>
                                     <div className = "d-flex  justify-content-center">
-                                    <NavLink className="WWEDOCustBtn" role = "button" to="/uiuxDev" exact  >Learn more</NavLink>
+                                    <NavLink className="WWEDOCustBtn" role = "button" to="/gameDev" exact  >Learn more</NavLink>
                                     </div>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
                         </div>
                         <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12">
                          <div className = "digiDev card-img-top">
-                            <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow">
+                         <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
                             <div className = "WWEDOvrtAlign d-flex flex-column">
-                            <h3 className = " d-flex flex-column justify-content-center display-4 WWeDoBodyHeading  mt-5">
+                                <div className = "d-flex flex-column justify-content-center">
+                                <h3 className = " display-4 WWeDoBodyHeading animate__pulse">
                                         <strong>Digital Marketing</strong>
                                     </h3>
-                                    <div className = "d-flex  flex-column justify-content-center WWEDOvrtAlign">
+                                    <div className = "d-flex flex-column justify-content-center WWEDOvrtAlign">
                                     <div className = "d-flex justify-content-center container">
                                         <p className = "d-flex justify-content-center w-100 WWEDOPara"> Our methodology brings you a fusion of contemporary business basics with all new aroma of modern-day media technology.
                                         </p> 
                                     </div>
                                     <div className = "d-flex  justify-content-center">
-                                    <NavLink className="WWEDOCustBtn" role = "button" to="/digiDev" exact  >Learn more</NavLink>
+                                    <NavLink className="WWEDOCustBtn" role = "button" to="/gameDev" exact  >Learn more</NavLink>
                                     </div>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
