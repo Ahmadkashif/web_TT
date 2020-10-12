@@ -1,5 +1,5 @@
 import React , {Component} from 'react'
-import G1 from '../../../../images/Pages/GameDev/Gamedev1.png'
+import G1 from '../../../../images/Pages/IconsWebUiDigi/e commrce.png'
 import B2B from '../../../../images/Pages/IconsWebUiDigi/B2B & B2C Portals.png'
 import SPA from '../../../../images/Pages/IconsWebUiDigi/Single Page Application.png'
 import CustDev from '../../../../images/Pages/IconsWebUiDigi/Custom Development.png'

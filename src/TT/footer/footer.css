@@ -1,5 +1,6 @@
 .footer_Text{
     color: rgb(143, 141, 138);
+    font-size : 0.8rem;
 }
 
 div.jumbotron.jumbotron-fluid.footerCust{
@@ -7,6 +8,19 @@ div.jumbotron.jumbotron-fluid.footerCust{
 }
 .iconfb{
     size: 1rem !important;
-    font-size : 1rem;
+    font-size : 0.8rem;
     color:navy;
+}
+.footerMain{
+    font-size: 16px !important;
+    color: rgb(128, 122, 114);
+}
+.allRights{
+    font-size: 10px !important;
+}
+.footerSub{
+    font-size: 12px !important;
+}
+ul li a.links{
+    
 }
