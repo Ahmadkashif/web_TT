@@ -95,7 +95,7 @@ class Body extends Component{
                             <div className = "WWEDOvrtAlign d-flex flex-column">
                                 <div className = "d-flex flex-column justify-content-center">
                                 <h3 className = " display-4 WWeDoBodyHeading animate__pulse">
-                                        <strong>UI/UX Development</strong>
+                                        <strong>UI/UX Design</strong>
                                     </h3>
                                     <div className = "d-flex flex-column justify-content-center WWEDOvrtAlign">
                                     <div className = "d-flex justify-content-center container">

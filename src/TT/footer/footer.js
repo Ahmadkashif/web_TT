@@ -15,10 +15,10 @@ class Footer extends Component{
                             <div className = "footer_Text text-wrap d-flex flex-column justify-content-start">
                             <h3 className = "footerSub">Explore</h3>
                             <div className = "d-flex flex-column">
-                                <div> <a href = "#" className = "links">Home</a></div>
-                                <div> <a href = "#" className = "links">Portfolio</a></div>
-                                <div><a href = "#" className = "links">About us</a></div>
-                                <div><a href = "#" className = "links">Contact </a></div>
+                                <div> <a href = "/" className = "links">Home</a></div>
+                                <div> <a href = "/portfolio/AppGame" className = "links">Portfolio</a></div>
+                                <div><a href = "/aboutus" className = "links">About us</a></div>
+                                <div><a href = "/contactus" className = "links">Contact </a></div>
                             </div>
                                
                             </div>
@@ -28,8 +28,8 @@ class Footer extends Component{
                 <div className = "col-3">
                     <div className = "">
                         <h3 className = "footerSub">Legal</h3>
-                            <a href= "/privacyPolicy">
-                            <p className = "footer_Text text-end">Privacy Policy</p>
+                            <a href= "/privacyPolicy" className="links">
+                            <p className = "">Privacy Policy</p>
                             </a>
                     </div>
                 </div>
