@@ -3,7 +3,7 @@ import './footer.css'
 class Footer extends Component{
     render(){
         return(
-        <div>
+        <div className = "mt-0">
             <div className="jumbotron jumbotron-fluid footerCust bg-dark  mb-0">
                 <div className="container">
                     <div className = "row d-flex">

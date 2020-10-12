@@ -18,7 +18,7 @@ class UIUXDev extends Component{
             <div>
             <Jumbo1 title = {"UI/UX Design"}/>
             
-            <div className = "jumbotron">
+            <div className = "jumbotron mb-0">
             
             <p className = "container">As expert UI designers we ensure that a user interacts with the game/app seamlessly while as UX designers we ensure those interactions are relishing and intuitive. We curate our UI/UX design such that it arrests the users’ attention which makes them persistent users and subsequently converts them into potential customers.</p>
             <div className = "row">

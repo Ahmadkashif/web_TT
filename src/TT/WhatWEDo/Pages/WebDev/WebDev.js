@@ -19,7 +19,7 @@ class WebDev extends Component{
         <div>
            <Jumbo1 title = {"Web Development"}/>
 
-            <div className = "jumbotron">
+            <div className = "jumbotron mb-0">
             
             <p className = "container">One of the most fundamental aspects of an enterprise is web application development which directly correlates to how the business is planned, executed and managed. We house a set of veteran developers who create web applications that can be deemed as competitive assets for online business processes</p>
             <div className = "row">

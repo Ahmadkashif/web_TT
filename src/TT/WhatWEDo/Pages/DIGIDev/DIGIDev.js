@@ -15,10 +15,10 @@ class DIGIDev extends Component{
       }
     render(){
         return(
-            <div>
+            <div className = "mb-0">
                 <Jumbo1 title = {"Digital Marketing"}/>
             
-            <div className = "jumbotron">
+            <div className = "jumbotron mb-0">
             
             <p className = "container">Your digital marketing strategy will likely comprise various digital marketing channels. Because your business is unique, you won't market yourself like anyone else and that's why we don't offer a 'one-size-fits-all' solution. Instead, we offer a wide range of digital marketing services, enabling you to select the ones that are right for you or to enlist the help of our team in crafting a solution which best suits your needs and goals</p>
             <div className = "row">
