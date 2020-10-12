@@ -1,0 +1,53 @@
+.CuModalBody{
+    background-image: url(../../images/cuModal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    padding : 0%;
+    margin : 0%;
+}
+.ContactViewIcons{
+    color: antiquewhite !important;
+    font-size: 35px;
+    padding: 10px ;
+}
+.CU_modal_content{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.ContactViewLinks{
+    color: antiquewhite;
+    padding-top: 0;
+    font-size: 15px;
+    text-align: start;
+}
+.ContactUspara{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+ContactUsHeading{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.form-controlTextarea{
+    height: 20vh;
+}
+.CUmainIcon{
+    font-size:35px !important;
+    color: antiquewhite;
+}
+.CUmainIconContent{
+    color: antiquewhite;
+}
+.centerDiv{
+    
+    
+    border-left: solid antiquewhite;
+    border-right: solid antiquewhite;
+    
+}
+.CU{
+    color: antiquewhite;
+}

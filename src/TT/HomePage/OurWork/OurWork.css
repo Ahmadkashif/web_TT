@@ -1,3 +1,19 @@
-.CaroCust{
-    height: 30vh !important;
+.OurWorkpic{
+    background-image: url('../../../images/Scene1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.mianJumbo{
+    width: 100%;
+    height: fit-content;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.Cu_map{
+    width: 100%;
 }

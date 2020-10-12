@@ -1,0 +1,12 @@
+.PT_vrtSppace{
+    margin-top: 60px !important;
+}
+.NavComp_active{
+    border-bottom: solid;
+    border-color: #1966b9;
+    font-size: 2.5 rem !important;
+    color: #1966b9 !important;
+}
+.portfolio{
+    color: antiquewhite;
+}

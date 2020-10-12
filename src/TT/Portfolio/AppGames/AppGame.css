@@ -1,0 +1,104 @@
+.App1{
+    background-image: url(../../../images/Portfolio/application1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 45vh !important;
+}
+.App2{
+    background-image: url(../../../images/Portfolio/application2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 45vh !important;
+}
+.App3{
+    background-image: url(../../../images/Portfolio/application3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 45vh !important;
+}
+.App4{
+    background-image: url(../../../images/Portfolio/application4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 45vh !important;
+}
+
+.Game1{
+    background-image: url(../../../images/Portfolio/scaryclown.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 45vh !important;
+}
+.Game2{
+    background-image: url(../../../images/Portfolio/sirenhead.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 45vh !important;
+}
+.Game3{
+    background-image: url(../../../images/Portfolio/lighthead.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 45vh !important;
+}
+.Game4{
+    background-image: url(../../../images/Portfolio/presidentgame.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 45vh !important;
+}
+.Game5{
+    background-image: url(../../../images/Portfolio/virtualschool.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 45vh !important;
+}
+.Game6{
+    background-image: url(../../../images/Portfolio/gutsandglory.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 45vh !important;
+}
+.overlay{
+    opacity: 0;
+   
+    text-align: center;
+   
+}
+a h1.overlayText{
+    padding-top: 2vh !important;
+    font-size: 1.4rem !important;
+    color:antiquewhite;
+}
+.portfolioViewProductLink{
+    text-decoration: none !important;
+}
+.AppGame:hover .overlay{
+    
+    opacity: 1;
+    transition: .5s;
+}
+a h1.overlayText.ProductName{
+    padding-top: 2vh !important;
+    font-size: 2.3rem !important;
+}

@@ -1,0 +1,17 @@
+.socialIcons{
+    font-size: 30px !important;
+    margin-bottom: 15px !important;
+    border-width: 0px;
+}
+.fb{
+    background-color: rgb(42, 42, 133);
+    border-color: rgb(42, 42, 133);
+}
+.linkedin{
+    background-color: rgb(17, 58, 172);
+    border-color: rgb(17, 58, 172);
+}
+.linkedin:hover{
+    background-color: rgb(34, 34, 252);
+    border-color: rgb(34, 34, 252);
+}

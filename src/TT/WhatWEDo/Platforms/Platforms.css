@@ -1,0 +1,17 @@
+.platform{
+    background: #237bda;
+    margin-bottom: 0px !important;
+    color: antiquewhite;
+    min-height : 20vh;  
+    height: auto;
+    vertical-align: middle;
+}
+.platformPara{
+    font-size: 1.5rem;
+}
+.platformPara strong{
+    font-size: 2.3rem;
+}
+.platformIcons{
+    font-size: 50px !important;
+}

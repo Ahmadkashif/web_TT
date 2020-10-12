@@ -1,5 +1,5 @@
 .CU_form{
-    padding: 20px;
+    padding: 10px;
     color: antiquewhite;
 }
 .contactMale{
@@ -22,4 +22,14 @@
 }
 .CU_form_labels{
     color: #1966b9;
+}
+.CU_formsInput{
+    background-color: rgba(250, 235, 215, 0);
+    border-style: solid;
+    border-top : 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+.Cu_form{
+    flex: 1;
 }

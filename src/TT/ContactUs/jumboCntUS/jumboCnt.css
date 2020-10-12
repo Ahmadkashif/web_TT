@@ -1,9 +1,11 @@
 .jumbo1AboutUs{
     background-image:url(../../../images/TT_splash_blackOverlay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: auto;
     color:antiquewhite;
     height: 50vh;
-
 }
 .heading_abtus{
     margin: 5rem;

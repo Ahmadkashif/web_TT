@@ -1,12 +1,17 @@
 .jumbo1AboutUs{
     background-image:url(../../../images/2.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: auto;
+    height: 50vh;
     color:antiquewhite;
-    height: 70vh;
-
 }
 .heading_abtus{
-    margin: 5rem;
+    margin-top: 15vh !important;
+}
+.ABTMAInHeading{
+    padding-top: 20px;
+    font-size: 1.3rem;
+    text-align: center;
 }

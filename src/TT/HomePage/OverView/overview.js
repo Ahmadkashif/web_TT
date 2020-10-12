@@ -5,7 +5,7 @@ class OverView extends Component{
         return(
             <div>
                 <div className = "OverView_heading">
-                    <h1 className = "display-4">Overview</h1>
+                    <h1 className = "display-4 mb-5 mt-2">Overview</h1>
                     <div className = "container">
                     <p className = "OverviewDescrp">
                         Twelve Tiers Technologies is where developers, designers, enthusiasts all come together for one single purpose, <strong>Excellence</strong>. 

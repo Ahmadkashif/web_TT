@@ -1,0 +1,68 @@
+.OurProcess{
+    color:antiquewhite !important;
+}
+.GameDevPageMainImage{
+    background-image: url(../../../images/Pages/GameDevbackground.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 80vh;
+    padding-right: 20px;
+}
+.AppDevPageMainImage{
+    background-image: url(../../../images/Pages/AppDevbackground.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 80vh;
+    padding-right: 20px;
+}
+.pageCard:hover{
+    box-shadow: 2px 2px 2px 2px #5c5959;
+    background-color: rgb(245, 244, 244);
+}
+.pageCard{
+    margin: 0px;
+    height: 250px;
+    width: auto;
+    padding:40px;
+    border-top: solid #e9e8e8;
+    border-bottom: solid #e9e8e8;
+}
+.pageCardImg{
+    width:75px;
+    height: auto;
+}
+.ContentColumn{
+    padding-top: 5vh;
+}
+.topRowHeading{
+    font-size: 1.5rem;
+    padding-left: 40px;
+}
+.pageCardPara{
+    padding-left: 20px;
+    text-align: center;
+}
+.webDevPageMainImage{
+    background-image: url(../../../images/Pages/GameDevPageimg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 70vh;
+    padding-right: 20px;
+    margin-top:20px;
+}
+.uiuxDevPageMainImage{
+    background-image: url(../../../images/Pages/AppDevPageimg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 70vh;
+    padding-right: 20px;
+    margin-top:20px;
+}

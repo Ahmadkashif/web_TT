@@ -1,43 +1,65 @@
 import React ,{Component} from 'react';
-import Caro1 from '../../../images/PortfolioSplash1.jpg'
-import Caro2 from '../../../images/indieGamesTemp.png'
+import { useEffect } from 'react';
 import './OurWork.css'
+import scene1 from '../../../images/Scene1.png'
+import scene2 from '../../../images/scene2.png'
+import scene3 from '../../../images/scene3.png'
+import scene4 from '../../../images/scene4.png'
 class OurWork extends Component{
+    style={
+        backgroundImage:{scene1},
+    }
+    obj = [scene1, scene2, scene3, scene4];
+
+    state = {
+        pic1 :scene1,
+        i : 0
+    }
     
+    getIndex(){
+        if(this.state.i < 3){
+            this.state.i++;
+        }
+        else
+        this.state.i = 0;
+
+        return this.state.i;
+    }
+    updateImage = () =>{
+       
+            return this.obj[this.getIndex()];
+       
+    }
+
+    doit = ()=> setInterval(() => {
+            this.setState(
+                {
+                    pic1 : this.updateImage()
+                })
+                console.log("loop");  
+        }, 2000);
+   
+
+    componentDidMount(){
+        console.log("loop");  
+        this.doit();
+    }
     render(){
         return(
-            <div>
-                
-            <h1 className = "d-flex justify-content-center">
-                Our Work
-            </h1>
-                <div className = "CaroCust">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner CaroCust">
-                            <div class="carousel-item active">
-                            <img src={Caro1} class="d-block w-100" alt="..."/>
-                            </div>
-                            <div class="carousel-item">
-                            <img src={Caro2} class="d-block w-100" alt="..."/>
-                            </div>
-                            <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="..."/>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
+            <div className = "jumbotron mt-0 mb-0 mianJumbo">
+               
+                <h1 className = "d-flex justify-content-center">
+                    Our Work
+                </h1>
+                <p  className = "d-flex justify-content-center" >Witness how we transform your brilliant idea into an inspiring reality on millions of devices</p>
+                <div>
+
+                </div>
+                <div className = "d-flex justify-content-center pl-0 pr-0"  style = {this.style}>
+                <img class="img" src={this.state.pic1}/>
+                </div>
+                <div className = "d-flex justify-content-center">
+                <a class="btn btn-primary" href="/portfolio/AppGame" role="button">View Our Work</a>
                 </div>
             </div>
         )

@@ -1,0 +1,90 @@
+.WWedoBody_Main_para{
+    font-size: 1.7rem !important;
+    text-align: center;
+    
+}
+.WWeDoBodyHeading{
+    padding-top: 80px;
+    font-size: 2.5rem;
+}
+.GameDev{
+    color: antiquewhite;
+    background-image: url(../../../images/WWeDoGameDev.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    
+}
+.AppDev{
+    
+    color: antiquewhite;
+    background-image: url(../../../images/WWEDoAPPdev.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.webDev{
+    color: antiquewhite;
+    background-image: url(../../../images/WWEDOWEBDEv.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+
+}
+.uiDev{
+    color: antiquewhite;
+    background-image: url(../../../images/WWeDoUiDev.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+
+}
+.digiDev{
+    color: antiquewhite;
+    background-image: url(../../../images/WWEDODigiMarketing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+
+}
+.WWEDOCustBtn{
+    padding:5px;
+    margin-top: 20px;
+    background-color: rgba(250, 250, 250, 0);
+    border-style: solid;
+    border-width: 1px;
+    border-color: antiquewhite;
+    color:antiquewhite;
+    border-radius: 6px;
+}
+.WWEDOCustBtn:hover{
+    text-decoration: none;
+    margin-top: 15px;
+    background-color: rgba(250, 250, 250, 0.678);
+    border-style: solid;
+    border-width: 1px;
+    border-color: antiquewhite;
+    color:rgb(49, 48, 47);
+    border-radius: 6px;
+    transition: .4s;
+}
+.WWEDOvrtAlign{
+    vertical-align: middle;
+    align-items: center;
+    text-align: end;
+}
+.WWeDoTextAlign{
+    text-align: center;
+}
+.WWEDOPageCardShadow{
+    box-shadow: 2px 4px 5px #5e5b5b;
+}
+.WWEDOPara{
+    padding-left: 5% !important;
+    padding-right: 5%;
+}

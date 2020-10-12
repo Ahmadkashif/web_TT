@@ -4,19 +4,19 @@ class Footer extends Component{
     render(){
         return(
         <div>
-            <div className="jumbotron jumbotron-fluid footerCust  mb-0">
+            <div className="jumbotron jumbotron-fluid footerCust bg-dark  mb-0">
                 <div className="container">
-                    <div className = "row">
-                    <div className = "col">
-                    <i className="facebook f icon iconfb w-10 h-10"></i>
-                    </div>
-                    <div className = "col">
-                        <div className = "footer_right">
-                        <p>Twelve Tiers Technologies Private Limited | All rights reserved</p>
+                    <div className = "row d-flex">
+                    <div className = "col-xl-6 col-lg-6 col-md-6 col-sm-6  d-flex justify-content-start">
+                        <div className = "footer_Text text-wrap">
+                        <p className = "">Twelve Tiers Technologies Private Limited | All rights reserved</p>
                         </div>
                     </div>
-                    <div className = "col">
-                        </div>
+                    <div className = "col-xl-6 col-lg-6 col-md-6 col-sm-6  d-flex justify-content-end">
+                        <a href= "/privacyPolicy">
+                        <p className = "footer_Text">Privacy Policy</p>
+                        </a>
+                    </div>
                     </div>
                 </div>
             </div>

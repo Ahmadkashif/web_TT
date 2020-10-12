@@ -1,20 +1,32 @@
-.navCustDesign{
-    padding-left: 1rem !important;
-    font-size: 1.4rem !important;
-    color: #1966b9 !important;
+nav div.navbar.navbar-expand-lg.navbar-light.fixed-top .collapse.navbar-collapse{
+
+    background: rgb(10, 10, 10) !important;
 }
-.navCustDesign_spacingX{
-    padding-right: 1.5rem !important;
-    padding-left: 1.1rem !important;
+.bg-dark{
+    background: rgb(10, 10, 10) !important;
+}
+.navCustDesign a{
+    font-size: 1.2rem !important;
+    font-weight: 100 !important;
+    color: antiquewhite !important;
 }
 .Nav_link_active_cust{
     border-bottom-style:solid;
-    border-color:#1966b9;
+    border-color:antiquewhite;
     z-index: 1;
 }
 .nav-item{
-    text-align: right !important;
+    text-align: center;
 }
 div ul li .navCustDesign{
 padding-bottom: 200px;    
+}
+.NavItem{
+    padding-left: 20px;
+}
+.NavItem_b{
+    padding-bottom: 10px;
+}
+.nvToggler{
+    
 }

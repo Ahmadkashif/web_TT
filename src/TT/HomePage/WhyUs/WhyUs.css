@@ -1,0 +1,33 @@
+.WWEDOvrtAlign{
+    align-items: center;
+    vertical-align: middle;
+    display: block;
+}
+.jmboWhyus{
+    background: rgb(32, 32, 32);
+    color: antiquewhite;
+}
+.WhyUsCard{
+    width: auto;
+    background: rgba(95, 93, 93, 0.418);
+    height: 280px;
+    color: #faebd7;
+    box-shadow: 0px 3px 4px #9e9999;
+}
+.WhyUsIcon{
+    width: 80px;
+}
+.Capable{
+    font-size: 1.9rem;
+}
+.CapablePara{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.WWEDOPara{
+    text-align: center;
+}
+.vrtSpace{
+    vertical-align: middle !important;
+    margin-top: 10% !important;
+}

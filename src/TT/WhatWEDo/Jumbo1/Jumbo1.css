@@ -4,11 +4,17 @@
     background-size: cover;
     background-position: center;
     width: auto;
-    height: 70vh;
-   
+    height: 50vh;
     color:antiquewhite;
 }
 .blackOverlay{
     background: #000000a2!important;
     height: inherit;
+}
+.WWEdoMainHeading{
+    display: flex;
+    vertical-align: middle;
+}
+.header{
+    margin-top: 70px;
 }

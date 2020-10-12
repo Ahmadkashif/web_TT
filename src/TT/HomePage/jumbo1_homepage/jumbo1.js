@@ -3,11 +3,13 @@ import React, {Component} from 'react'
 class Jumbo1 extends Component{
     render(){
         return(
-             <div className="jumbotron jumbotron-fluid ui fluid image"  id = "mainsplash">
+             <div className="jumbotron jumbotron-fluid mb-0 d-flex flex-column"  id = "mainsplash">
                  {/* <img className="ui fluid image" src={TT_splash}></img> */}
-                <div className="container mainPage_mainHeading">
-                    <h1 className="display-3">When you need coding, it better be Phenomenal. </h1>
-                    <p className="lead">Come join hands with us as we specialize in Mobile Game & App Development for a mesmerizing experience</p>
+                <div className="container mainPage_mainHeading mainPage_vert_space d-felx flex-column justify-content-center col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 w-100">
+                    <h1 className="display-3">A ONE-STEP SOLUTION 
+                    </h1>
+                    <p className="lead">TO CATER ALL YOUR DIGITAL NEEDS 
+</p>
                 </div>
             </div> 
 

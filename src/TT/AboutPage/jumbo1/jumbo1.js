@@ -5,8 +5,9 @@ class Jumbo1 extends Component{
         return (
             <div className = "jumbo1AboutUs">
                 <div className="jumbotron jumbotron-fluid blackOverlay">
-                    <div className="container d-flex justify-content-center">
-                        <h1 className="display-4 heading_abtus">About Us</h1>
+                    <div className="container ">
+                        <h1 className="display-2 d-flex justify-content-center heading_abtus"><strong>About Us</strong></h1>
+                       
                     </div>
                 </div>
             </div>

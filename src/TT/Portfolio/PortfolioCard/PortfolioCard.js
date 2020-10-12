@@ -11,7 +11,6 @@ class PortfolioCard extends Component{
                 <div className="card portfolioCust" >
                     <img src={indieGameThumbnail} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
                     </div>
                 </div>
                 {/* </div> */}

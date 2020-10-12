@@ -1,14 +1,20 @@
+@font-face { font-family: roboto; src: url('../images/Roboto-Light.ttf'); } 
 body{
-    background-color: rgb(238, 247, 255)!important; 
+    background-color: rgb(39, 42, 44)!important; 
+    font-family: 'Roboto' !important;
+    font-weight: 300;
     /* 1966b9 */
 }
-navbarSpacer{
-    min-width: 200px;
-}
+
 .TTicon{
-    width: 10px !important;
-    height: 10px !important;
-    size: 1rem !important;
+    height:3.5rem;
+    padding: 0px;
+    width: 3.5rem;
+}
+.TTicon1{
+    height:3.5rem;
+    padding:0px;
+    width:7.5rem;
 }
 div div#mainsplash{
     margin-top: 10px;
@@ -23,7 +29,7 @@ div div#mainsplash{
    color:blanchedalmond!important;
 } 
 .mainPage_vert_space{
-    margin-top: 10rem;
+    margin-top: 5vh;
 }
 .mainPage_mainHeading{
     height: 80vh;
@@ -32,11 +38,19 @@ div div#mainsplash{
 
 .OverView_heading{
     text-align: center;
-    height:100vh;
+    height:auto;
 }
 .shadownavCust{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 .OverviewDescrp{
     font-size: 1.3rem;
+}
+.rightPaddingNavbar{
+}
+ul li .contactLink{
+    color:antiquewhite !important;
+    background-color: #1966b9;
+    text-shadow: none;
+    border-radius: 6px;
 }

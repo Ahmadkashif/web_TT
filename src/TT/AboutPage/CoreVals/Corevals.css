@@ -1,5 +1,85 @@
 .CorevalsCard{
     max-width: 400px;
-    min-height: 100px;
+    
     z-index: 2;
+}
+.CorevalsMainHeading{
+    text-align: center;
+    font-size: 2.8rem;
+}
+.CorevalsMainHeading1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.CorevalsMainHeading1_para{
+    text-align: center;
+    font-size: 1.5rem !important;
+}
+.C1{
+    margin-top: 2rem;
+    background-image: url(../../../images/COREVals1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+.C2{
+    margin-top: 2rem;
+    background-image: url(../../../images/COREVals2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+.C3{
+    margin-top: 2rem;
+    background-image: url(../../../images/COREvals3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+.C4{
+    margin-top: 2rem;
+    background-image: url(../../../images/COREVals4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+.C5{
+    margin-top: 2rem;
+    background-image: url(../../../images/COREVals5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+.C6{
+    margin-top: 2rem;
+    background-image: url(../../../images/COREVals6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+.COREvalsContent{
+    color: antiquewhite;
+    padding :30px;
+}
+.COREvalsContent:hover .COREvalsContent_header{
+    transition: .5s;
+    font-size: 45px;
+    
+}
+.COREvalsContent:hover .COREvalsContent_para{
+    margin-bottom: 14vh !important;
+    transition: .2s;
+}
+.COREvalsContent_header{
+    text-align: center;
+    margin-top: 12vh !important;
+}
+.COREvalsContent_para{
+    text-align: center;
 }

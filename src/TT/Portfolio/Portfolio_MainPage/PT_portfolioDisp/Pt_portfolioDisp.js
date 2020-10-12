@@ -7,9 +7,7 @@ class Pt_portfolioDisp extends Component{
             <div>
 
                 <div className= "container">
-                    <h1 className= "display-3">
-                        Our Work
-                    </h1>
+                    
                     <p>
                         aisncd yabhsdb ybybh  habsydfahdbtc rcvgavsd a sdnaskd uansudjoasd jnuasdasndj n habsdasidn uabsjdasudnas juasdasnfb o a sh
                     </p>
