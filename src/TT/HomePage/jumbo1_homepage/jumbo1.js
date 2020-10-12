@@ -1,16 +1,16 @@
 import React, {Component} from 'react'
-// import
+import './jumbo1.css'
 class Jumbo1 extends Component{
     render(){
         return(
-             <div className="jumbotron jumbotron-fluid mb-0 d-flex flex-column"  id = "mainsplash">
-                 {/* <img className="ui fluid image" src={TT_splash}></img> */}
-                <div className="container mainPage_mainHeading mainPage_vert_space d-felx flex-column justify-content-center col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 w-100">
+             <div className="jumbotron jumbotron-fluid mb-0 d-flex flex-column "  id = "mainsplash">
+                 <div className = " d-flex flex-column justify-content-center my-auto">
+                 <div className="container mainPage_mainHeading mainPage_vert_space p-0 d-felx flex-column  col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 w-100">
                     <h1 className="display-3">A ONE-STEP SOLUTION 
                     </h1>
-                    <p className="lead">TO CATER ALL YOUR DIGITAL NEEDS 
-</p>
+                    <p className="lead">TO CATER ALL YOUR DIGITAL NEEDS </p>
                 </div>
+                 </div>
             </div> 
 
         );
