@@ -21,7 +21,7 @@ class GameDev extends Component{
         return (
             <div>
                 <Jumbo1 title = {"Game Development"}/>
-            <div className = "jumbotron">
+            <div className = "jumbotron WhatweDoDark">
                 <p className = "container">As a leading game design company our range of services covers everything from character design and game mechanics to coding, development and testing.  We adapt to the latest tools and frameworks in the market and work with game engines like Unity3D, Cocos2d-x and Unreal as well as technologies like HTML5 and others to build high quality games</p>
                 <div className = "row">
                     <div className = "col-xl-4 col-lg-4 col-md-12 col-sm-12 w-100 GameDevPageMainImage">
@@ -32,10 +32,10 @@ class GameDev extends Component{
                                 <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0 d-flex flex-column">
                                     <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                         <div className = "row">
-                                            <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3 d-flex">
+                                            <div className = "col-3">
                                                 <img className = "pageCardImg" src = {G1}/>
                                             </div>
-                                            <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column ">
+                                            <div className = "col-9 d-flex flex-column ">
                                                 <h1 className = "text-center topRowHeading ">
                                                     <strong>iOS GAME DEVELOPMENT</strong>
                                                 </h1>
@@ -49,10 +49,10 @@ class GameDev extends Component{
                                 <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
                                 <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                         <div className = "row">
-                                            <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
+                                            <div className = "col-3">
                                                 <img className = "pageCardImg" src = {AndGames}/>
                                             </div>
-                                            <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
+                                            <div className = "col-9 d-flex flex-column justify-content-center">
                                             <h1 className = "  text-center topRowHeading d-flex justify-content-center">
                                                 <strong>ANDROID GAME DEVELOPMENT</strong>
                                             </h1>
@@ -66,10 +66,10 @@ class GameDev extends Component{
                                 <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
                                 <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                         <div className = "row">
-                                            <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
+                                            <div className = "col-3">
                                                 <img className = "pageCardImg" src = {ARGames}/>
                                             </div>
-                                            <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
+                                            <div className = "col-9 d-flex flex-column justify-content-center">
                                             <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                                 <strong>AR GAME DEVELOPMENT</strong>
                                             </h1>
@@ -82,10 +82,10 @@ class GameDev extends Component{
                                 <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
                                      <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                         <div className = "row">
-                                            <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
+                                            <div className = "col-3">
                                                 <img className = "pageCardImg" src = {onlineGames}/>
                                             </div>
-                                            <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
+                                            <div className = "col-9 d-flex flex-column justify-content-center">
                                             <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                                 <strong>ONLINE GAME DEVELOPMENT COMPANY</strong>
                                             </h1>
@@ -100,10 +100,10 @@ class GameDev extends Component{
                                 <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
                                 <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                         <div className = "row">
-                                            <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
+                                            <div className = "col-3">
                                                 <img className = "pageCardImg" src = {corssGames}/>
                                             </div>
-                                            <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
+                                            <div className = "col-9 d-flex flex-column justify-content-center">
                                             <h1 className = " text-center  topRowHeading d-flex justify-content-center">
                                                 <strong>CROSS-PLATFORM GAME DEVELOPMENT
 </strong>
@@ -117,10 +117,10 @@ class GameDev extends Component{
                                 <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mr-0 pl-0 pr-0">
                                      <div className = "pageCard d-flex flex-column justify-content-center my-auto">
                                         <div className = "row">
-                                            <div className = "col-xl-3 col-lg-3 col-sm-3 col-md-3">
+                                            <div className = "col-3">
                                                 <img className = "pageCardImg" src = {oCCUGames}/>
                                             </div>
-                                            <div className = "col-xl-9 col-lg-9 col-sm-9 col-md-9 d-flex flex-column justify-content-center">
+                                            <div className = "col-9 d-flex flex-column justify-content-center">
                                             <h1 className = "text-center   topRowHeading d-flex justify-content-center">
                                                 <strong>OCULUS RIFT GAME DEVELOPMENT
 </strong>

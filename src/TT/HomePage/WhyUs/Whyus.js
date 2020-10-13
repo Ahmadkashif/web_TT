@@ -117,7 +117,7 @@ class WhyUs extends Component{
                                     <div className = "d-flex flex-column justify-content-center align-middle my-auto">
                                     <img src = {DediDev} className = "WhyUsIcon mx-auto"/>
                                         <h5 className="card-title mt-3">DEDICATED DEVELOPERS</h5>
-                                        <p className="card-text">We are a dedicated appps & games development service provider
+                                        <p className="card-text">We are a dedicated apps & games development service provider
                                          with an enviable pool of expert developers in multiple technologies.</p>
                                     </div>
                                     </div>

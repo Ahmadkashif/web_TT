@@ -2,7 +2,7 @@
     color:antiquewhite !important;
 }
 .GameDevPageMainImage{
-    background-image: url(../../../images/Pages/GameDevbackground.png);
+    background-image: url(../../../images/Pages/4phone.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,7 +11,7 @@
     padding-right: 20px;
 }
 .AppDevPageMainImage{
-    background-image: url(../../../images/Pages/AppDevbackground.png);
+    background-image: url(../../../images/Pages/5.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,15 +21,15 @@
 }
 .pageCard:hover{
     box-shadow: 2px 2px 2px 2px #5c5959;
-    background-color: rgb(245, 244, 244);
+    background-color: rgb(68, 67, 67);
 }
 .pageCard{
     margin: 0px;
     height: 250px;
     width: auto;
     padding:40px;
-    border-top: solid #e9e8e8;
-    border-bottom: solid #e9e8e8;
+    border-top: solid #302f2f;
+    border-bottom: solid #302f2f;
 }
 .pageCardImg{
     width:75px;
@@ -47,7 +47,7 @@
     text-align: center;
 }
 .webDevPageMainImage{
-    background-image: url(../../../images/Pages/GameDevPageimg.png);
+    background-image: url(../../../images/Pages/2phone.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,4 +65,8 @@
     height: 70vh;
     padding-right: 20px;
     margin-top:20px;
+}
+.WhatweDoDark{
+    background-color: #2e2c2c;
+    color:antiquewhite;
 }

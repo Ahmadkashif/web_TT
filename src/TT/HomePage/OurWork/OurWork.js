@@ -58,7 +58,7 @@ class OurWork extends Component{
                 <div className = "d-flex justify-content-center pl-0 pr-0"  style = {this.style}>
                 <img class="img" src={this.state.pic1}/>
                 </div>
-                <div className = "d-flex justify-content-center">
+                <div className = "d-flex justify-content-center mt-5">
                 <a class="btn btn-primary" href="/portfolio/AppGame" role="button">View Our Work</a>
                 </div>
             </div>

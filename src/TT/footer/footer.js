@@ -7,7 +7,7 @@ class Footer extends Component{
             <div className="jumbotron jumbotron-fluid footerCust bg-dark  mb-0 pr-0 mr-0 w-100">
                 <div className = "row w-100">
                 <div className="col-6">
-                <h3 className = "pl-3 footerMain my-auto">Twelve Tiers Technologies PVT LTD<br/><span className = "allRights">All rights reserved</span></h3>
+                <h3 className = "pl-3 footerMain my-auto">Twelve Tiers Technologies PVT LTD<br/><span className = "allRights">All rights reserved <span className = "copyrightIcon">©</span> 2018</span></h3>
                 </div>
                 <div className = "col-3">
                     <div className = "row w-100 d-flex">
@@ -20,7 +20,6 @@ class Footer extends Component{
                                 <div><a href = "/aboutus" className = "links">About us</a></div>
                                 <div><a href = "/contactus" className = "links">Contact </a></div>
                             </div>
-                               
                             </div>
                         </div>
                     </div>
