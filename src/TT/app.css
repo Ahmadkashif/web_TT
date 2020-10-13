@@ -1,11 +1,26 @@
 @font-face { font-family: roboto; src: url('../images/Roboto-Light.ttf'); } 
 body{
-    background-color: rgb(39, 42, 44)!important; 
+    /* background-color: rgb(39, 42, 44)!important; 
     font-family: 'Roboto' !important;
     font-weight: 300;
-    /* 1966b9 */
+    1966b9 */
+    background-image: url('../images/TT_splash_blackOverlay.jpg')!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: fixed;
+    width: auto;
+    height: 100vh;
 }
-
+.HomePageImage{
+    /* background-image: url('../images/TT_splash_blackOverlay.jpg')!important;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: auto;
+    height: 100vh;
+    z-index: -1; */
+}
 .TTicon{
     height:3.5rem;
     padding: 0px;
@@ -17,14 +32,13 @@ body{
     width:7.5rem;
 }
 div div#mainsplash{
-    margin-top: 10px;
-    background-image: url('../images/TT_splash_blackOverlay.png')!important;
+    /* background-image: url('../images/TT_splash_blackOverlay.jpg')!important;
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center;
+    background-position: center; */
     width: auto;
     height: 100vh;
-   background-color: rgba(127, 255, 212, 0);
+   background-color: rgba(255, 255, 255, 0);
    text-align: center;
    color:blanchedalmond!important;
 } 

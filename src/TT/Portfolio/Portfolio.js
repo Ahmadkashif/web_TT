@@ -22,10 +22,7 @@ class Portfolio extends Component{
                <h1 className= "display-3 d-flex justify-content-center mt-5 mb-0">
                         Our Work
                 </h1>
-                <p></p>
-                
-
-                
+        
                <ComponentDesc/>
                <NavComp/>              
                    <Route path = "/portfolio/AppGame" exact component = {AppGame}/>

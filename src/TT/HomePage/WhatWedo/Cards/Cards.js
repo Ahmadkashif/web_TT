@@ -9,7 +9,7 @@ class Card extends Component{
                         <h5 className="card-title d-flex justify-content-center mt-2">{this.props.label}</h5>
                             <p className="card-text CardTextCust d-flex justify-content-center">{this.props.info}</p>
                         <div className = "d-flex justify-content-center">
-                        <a href="/whatwedo" className="card-link ">Learn more{' >'}</a>
+                        <a href="/whatwedo/all" className="card-link ">Learn more{' >'}</a>
                         </div>
                     </div>
                 </div>

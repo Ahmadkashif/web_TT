@@ -25,7 +25,7 @@ class AppDev extends Component{
                 <Jumbo1 title = {"App Development"}/>
             <div className = "jumbotron WhatweDoDark">
             
-            <p className = "container">We have what it takes to build efficient mobile apps for every platform and deliver high quality services to meet global standards. We have developed and deployed mobile application development solutions and services for many business apps for our clients.
+            <p className = "container topText text-center">We have what it takes to build efficient mobile apps for every platform and deliver high quality services to meet global standards. We have developed and deployed mobile application development solutions and services for many business apps for our clients.
 </p>
             <div className = "row">
                 <div className = "col-xl-4 col-lg-4 col-md-12 col-sm-12 w-100 AppDevPageMainImage">

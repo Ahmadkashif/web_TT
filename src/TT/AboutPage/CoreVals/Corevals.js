@@ -34,7 +34,7 @@ class Corevals extends Component{
                         <h1 className = "mt-5 display-3 d-flex justify-content-center pb-3 ABT_vrtSpc CorevalsMainHeading">
                         <strong>Our Core Values</strong>
                     </h1>
-                    <div className = "row ABT_vrtSpc">
+                    <div className = "row mt-3">
                         <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div className = "C1 COREvalsContent d-flex flex-column">
                                 <div className = " d-flex flex-column justify-content-center my-auto">

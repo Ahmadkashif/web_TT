@@ -5,7 +5,7 @@ import './NavComp.css'
 class NavComp extends Component{
     render(){
         return (
-        <div className = "container WWeDoVrtSpace">
+        <div className = "container mt-5">
             <div className = "NavComptab">
                 <div className = "container d-flex justify-content-start">
                     <div className = "NavCompTab_selection">

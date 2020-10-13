@@ -26,10 +26,12 @@
 .ContactUspara{
     font-size: 1.4rem;
     font-weight: 300;
+    
 }
 ContactUsHeading{
     font-size: 1.8rem;
-    font-weight: 300;
+    font-weight: 800;
+    color: #1966b9 !important;
 }
 .form-controlTextarea{
     height: 20vh;

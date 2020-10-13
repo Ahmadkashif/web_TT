@@ -15,14 +15,14 @@ class Body extends Component{
                     </p>
                 </div>
 
-                <div className = "services WWeDoVrtSpace">
+                <div className = "services mt-5">
                     <h1 className = "container display-4 d-flex justify-content-center WWeDoTextAlign animate__animated animate__pulse animate__delay-2s">Services We Provide</h1>
                     <div className = "row">
 
 
                         <div className = "col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
                          <div className = "GameDev card-img-top">
-                            <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
+                            <div className= "mt-4 blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
                             <div className = "WWEDOvrtAlign d-flex flex-column">
                                 <div className = "d-flex flex-column justify-content-center">
                                 <h3 className = " display-4 WWeDoBodyHeading animate__pulse">
@@ -45,7 +45,7 @@ class Body extends Component{
                         </div>
                         <div className = "col-xl-6 col-lg-6 col-md-6 col-sm-12">
                          <div className = "AppDev">
-                         <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
+                         <div className= "mt-4 blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
                             <div className = "WWEDOvrtAlign d-flex flex-column">
                                 <div className = "d-flex flex-column justify-content-center">
                                 <h3 className = " display-4 WWeDoBodyHeading animate__pulse">
@@ -69,7 +69,7 @@ class Body extends Component{
                     <div className = "row">
                         <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12">
                          <div className = "webDev card-img-top">
-                         <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
+                         <div className= "mt-4 blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
                             <div className = "WWEDOvrtAlign d-flex flex-column">
                                 <div className = "d-flex flex-column justify-content-center">
                                 <h3 className = " display-4 WWeDoBodyHeading animate__pulse">
@@ -91,7 +91,7 @@ class Body extends Component{
                         </div>
                         <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12">
                          <div className = "uiDev ">
-                         <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
+                         <div className= "mt-4 blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
                             <div className = "WWEDOvrtAlign d-flex flex-column">
                                 <div className = "d-flex flex-column justify-content-center">
                                 <h3 className = " display-4 WWeDoBodyHeading animate__pulse">
@@ -113,7 +113,7 @@ class Body extends Component{
                         </div>
                         <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12">
                          <div className = "digiDev card-img-top">
-                         <div className= "WWeDoVrtSpace blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
+                         <div className= "mt-4 blackOverlay WWEDOPageCardShadow d-flex flex-column justify-content-center">
                             <div className = "WWEDOvrtAlign d-flex flex-column">
                                 <div className = "d-flex flex-column justify-content-center">
                                 <h3 className = " display-4 WWeDoBodyHeading animate__pulse">

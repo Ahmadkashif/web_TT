@@ -22,7 +22,7 @@ class GameDev extends Component{
             <div>
                 <Jumbo1 title = {"Game Development"}/>
             <div className = "jumbotron WhatweDoDark">
-                <p className = "container">As a leading game design company our range of services covers everything from character design and game mechanics to coding, development and testing.  We adapt to the latest tools and frameworks in the market and work with game engines like Unity3D, Cocos2d-x and Unreal as well as technologies like HTML5 and others to build high quality games</p>
+                <p className = "container topText text-center">As a leading game design company our range of services covers everything from character design and game mechanics to coding, development and testing.  We adapt to the latest tools and frameworks in the market and work with game engines like Unity3D, Cocos2d-x and Unreal as well as technologies like HTML5 and others to build high quality games</p>
                 <div className = "row">
                     <div className = "col-xl-4 col-lg-4 col-md-12 col-sm-12 w-100 GameDevPageMainImage">
 
